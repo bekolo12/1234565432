@@ -10,11 +10,13 @@ export interface NetworkData {
   name: string;
   value: number;
   color: string;
+  [key: string]: any;
 }
 
 export interface HardwareData {
   name: string;
   value: number;
+  [key: string]: any;
 }
 
 export interface ProjectData {
